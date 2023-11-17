@@ -1,0 +1,54 @@
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.Proyecto{
+    font-size: 10px;
+    text-align: left;
+}
+.Proyecto img{
+    position: relative;
+    width: 5px;
+    height: 5px;
+
+}
+.nav-principal{
+    margin: 20px 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Redes{
+    font-size: 10px;
+    text-align:right;
+}
+
+.contenedor-grid{
+    background-color: rgba(10, 10, 10, 0);
+
+}
+
+.columna{
+    
+    border-radius: 5px;
+    
+}
+
+.columna19{
+      display: grid;
+      grid-row: 4/5; 
+      grid-column: 4/6; 
+      
+}
+
+@media (min-width: 750px) {
+    .contenedor-grid{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 2rem;
+    }
+    
+}
